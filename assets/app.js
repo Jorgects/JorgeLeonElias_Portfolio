@@ -37,14 +37,14 @@ const projectData={
   gallery:[]
  },
  rewilders:{
-  title:'Rewilders: The Lost Spring',
+  title:'Wilderings: The Lost Spring',
   kicker:'Herobeat Studios',
   role:'Principal Game Designer',
   year:'2022 — 2023',
   image:'images/projects/rewilders_top.jpg',
-  caption:'Rewilders: The Lost Spring — early project development',
+  caption:'Wilderings: The Lost Spring — early project development',
   statement:'Defining a combat-focused game from its earliest concepts while keeping its ecological themes at the heart of the experience.',
-  body:'I joined Rewilders: The Lost Spring at the very beginning of development, working closely with creative direction to establish the concept and core gameplay of the studio’s first combat-focused project. As Principal Game Designer within a two-person design team, I worked across the game’s structure, core loops, progression, combat and moment-to-moment gameplay, taking the project from early concepts into playable prototypes.\n\nMy work covered a broad range of systems during this phase, including combat design and balancing, AI design and implementation, traversal abilities and level blockouts. Much of the development process was centred around prototyping in Unreal Engine, using Blueprints and Data Assets to quickly test and iterate on the game’s core mechanics.',
+  body:'I joined Wilderings: The Lost Spring at the very beginning of development, working closely with creative direction to establish the concept and core gameplay of the studio’s first combat-focused project. As Principal Game Designer within a two-person design team, I worked across the game’s structure, core loops, progression, combat and moment-to-moment gameplay, taking the project from early concepts into playable prototypes.\n\nMy work covered a broad range of systems during this phase, including combat design and balancing, AI design and implementation, traversal abilities and level blockouts. Much of the development process was centred around prototyping in Unreal Engine, using Blueprints and Data Assets to quickly test and iterate on the game’s core mechanics.',
   highlightTitle:'TURNING THE GAME’S THEMES INTO GAMEPLAY',
   highlightBody:'One of the key design challenges was reconciling the game’s eco-conscious themes with a combat-focused experience. We wanted the player to interact with nature as an important part of the gameplay without making those interactions feel like conventional, disconnected resource collection.\n\nI designed the nectar-gathering system around the player’s existing combat verbs instead of introducing a separate interaction button. Attacks could interact with nearby plants, with different attacks producing different gathering patterns — for example, a light attack collecting from plants directly in front of the player, while a jump attack could gather nectar across an area.\n\nWorking with creative direction, animation and VFX, we shaped these interactions so that they felt less like attacking plants and more like the character moving and interacting naturally with them. This allowed a resource-gathering mechanic to become part of the game’s existing movement and combat language, while also giving players small decisions about how they gathered resources.',
   highlightKicker:'SIGNATURE CONTRIBUTION',
