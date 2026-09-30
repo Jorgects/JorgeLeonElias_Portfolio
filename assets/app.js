@@ -84,7 +84,8 @@ const projectData={
 
 const bgMap={home:'images/bg.jpg',lotf2:'images/projects/lotf2_top.jpg',survive:'images/survive.jpg',rewilders:'images/projects/rewilders_top.jpg',endling:'images/projects/endling_top.jpg',experiments:'images/Endling4.jpg',about:'images/bg.jpg',contact:'images/bg.jpg'};
 function setBackground(key){backdrop.style.backgroundImage=`url("${bgMap[key]||bgMap.home}")`;backdrop.style.transform='scale(1.05)';setTimeout(()=>backdrop.style.transform='scale(1.03)',30)}
-function activate(id,animate=true){const target=views[id]||views.home;document.querySelectorAll('[data-view]').forEach(v=>v.classList.remove('active'));target.classList.add('active');document.body.classList.toggle('content-active',id==='project');document.body.classList.toggle('about-active',id==='about');setBackground(id);if(animate){transition.classList.remove('run');void transition.offsetWidth;transition.classList.add('run')}target.scrollTop=0;}
+function resetCursor(){if(!cursor)return;cursor.classList.remove('visible');cursor.style.left='-100px';cursor.style.top='-100px'}
+function activate(id,animate=true){const target=views[id]||views.home;resetCursor();document.querySelectorAll('[data-view]').forEach(v=>v.classList.remove('active'));target.classList.add('active');document.body.classList.toggle('content-active',id==='project');document.body.classList.toggle('about-active',id==='about');setBackground(id);if(animate){transition.classList.remove('run');void transition.offsetWidth;transition.classList.add('run')}target.scrollTop=0;}
 function route(id,project){if(project){fillProject(project);activate('project');history.pushState({id:'project',project},'',`#project/${project}`)}else{activate(id);history.pushState({id},'',`#${id}`)}}
 function fillProject(key){
  const d=projectData[key]||projectData.endling;

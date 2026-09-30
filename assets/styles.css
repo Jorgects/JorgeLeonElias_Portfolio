@@ -131,3 +131,16 @@ body.about-active .backdrop-wash::after {
 
 /* Experiments without a hero image */
 .project-view .project-image[style*="display: none"] + .project-grid{margin-top:38px}
+
+
+/* Mobile home layout fixes */
+@media(max-width:800px){
+  .home-copy h1{font-size:clamp(27px,8.2vw,34px);line-height:.98;letter-spacing:-.055em;max-width:100%;}
+  .home-copy h1 em{letter-spacing:-.06em;}
+  .home-copy .eyebrow{margin-top:20px;margin-bottom:18px;}
+  .home-copy .lede{font-size:15px;line-height:1.5;margin:28px 0 24px;max-width:100%;}
+  .home-layout{gap:34px;}
+  .home-aside{margin-top:38px;max-width:none;padding-left:18px;}
+  .home-experience{margin-top:42px;margin-bottom:24px;}
+  .home-bottom{position:relative;left:auto;right:auto;bottom:auto;margin:8px 0 12px;padding:14px 0 0;display:flex;flex-direction:column;gap:9px;align-items:flex-start;}
+}
