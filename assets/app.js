@@ -78,6 +78,7 @@ const projectData={
   statement:'A one-week vertical slice built by a two-person team from concept to playable prototype.',
   body:'Bandit Trail was a small endless-runner prototype developed as part of my university course. Built by a two-person team over roughly one week, the project was designed as a rapid vertical slice for a potential mobile game.\n\nWith such a small team and a very short development window, I worked across the project rather than within a single discipline: designing the gameplay, programming the systems, integrating third-party art assets, and creating the game’s sound and music. I also recorded the music used in the prototype.',
   video:'https://www.youtube.com/embed/gjWX0_mF_vU',
+  itch:'446654',
   gallery:[]
  }
 };
@@ -104,6 +105,7 @@ function fillProject(key){
  const media=document.querySelector('#project-media');
  let mediaHtml='';
  if(d.video){mediaHtml+=`<div class="project-media-block"><div class="media-label">VIDEO</div><div class="project-video"><iframe src="${d.video}" title="${d.title} video" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div>`}
+ if(d.itch){mediaHtml+=`<div class="project-media-block itch-block"><div class="media-label">AVAILABLE ON ITCH.IO</div><div class="project-itch"><iframe src="https://itch.io/embed/${d.itch}" title="${d.title} on itch.io" loading="lazy" frameborder="0"></iframe></div></div>`}
  if(d.steam){mediaHtml+=`<div class="project-media-block steam-block"><div class="media-label">AVAILABLE ON STEAM</div><div class="project-steam"><iframe src="https://store.steampowered.com/widget/${d.steam}/" title="${d.title} on Steam" loading="lazy" frameborder="0"></iframe></div></div>`}
  media.innerHTML=mediaHtml;
  document.querySelector('#project-gallery').innerHTML=d.gallery.filter(item=>!(typeof item==='object'&&item.position==='top')).map(item=>{const src=typeof item==='string'?item:item.src;const position=typeof item==='string'?'':` ${item.position||''}`;return `<img class="gallery-image${position}" src="${src}" alt="${d.title} project image" loading="lazy">`}).join('');
