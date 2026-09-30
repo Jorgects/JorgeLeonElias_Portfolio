@@ -109,7 +109,7 @@ body.about-active .backdrop-wash::after {
 
 /* Home composition: hero above, experience below. */
 @media(max-width:800px){
-  .home-layout{position:relative;top:auto;left:auto;right:auto;min-height:auto;}
+  .home-layout{position:relative;top:auto;left:auto;right:auto;min-height:auto;grid-template-columns:1fr;}
   .home-experience{position:relative;top:auto;bottom:auto;left:auto;right:auto;transform:none;width:100%;margin:45px 0 55px;}
 }
 
@@ -135,7 +135,7 @@ body.about-active .backdrop-wash::after {
 
 /* Mobile home layout fixes */
 @media(max-width:800px){
-  .home-copy h1{font-size:clamp(27px,8.2vw,34px);line-height:.98;letter-spacing:-.055em;max-width:100%;}
+  .home-copy h1{font-size:clamp(29px,8.2vw,34px);line-height:.98;letter-spacing:-.055em;max-width:100%;}
   .home-copy h1 em{letter-spacing:-.06em;}
   .home-copy .eyebrow{margin-top:20px;margin-bottom:18px;}
   .home-copy .lede{font-size:15px;line-height:1.5;margin:28px 0 24px;max-width:100%;}
