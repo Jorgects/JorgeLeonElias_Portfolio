@@ -1,620 +1,116 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Jorge Leon - Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Jorge León Elías — Technical & Systems Game Designer">
+<title>Jorge León Elías — Technical & Systems Game Designer</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div class="grain"></div>
+<div class="backdrop" aria-hidden="true"><div class="backdrop-image"></div><div class="backdrop-wash"></div></div>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.png" alt="" /></a>
-					<h1>
-						<strong>Jorge León Elías</strong>, <br />
-						Game Designer <br />
-						</a>
-					</h1>
-					<br />
-					<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
+<header class="site-header">
+    <button class="logo cursor-target" data-route="home" aria-label="Go home">JORGE<br><span>LEÓN ELÍAS</span></button>
+    <!-- <div class="header-status"><span class="status-dot"></span> AVAILABLE FOR THE RIGHT PROJECT</div> -->
+    <nav>
+        <button class="cursor-target" data-route="work">Work</button>
+        <button class="cursor-target" data-route="about">About</button>
+        <a class="cursor-target" href="assets/CV_JorgeLeonElias_2023.pdf" target="_blank" rel="noopener">CV</a>
+        <span class="header-socials" aria-label="Social links">
+            <a class="header-social cursor-target" href="https://www.linkedin.com/in/jorgeleonelias/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 8.3H1.7V22h3.5V8.3ZM3.45 2A2.05 2.05 0 1 0 3.45 6.1 2.05 2.05 0 0 0 3.45 2ZM8.55 8.3H12v1.87h.05c.48-.91 1.65-2.22 3.4-2.22 3.64 0 4.31 2.4 4.31 5.52V22h-3.5v-7.57c0-1.8-.03-4.12-2.5-4.12-2.5 0-2.88 1.95-2.88 3.99V22h-3.5V8.3Z" /></svg>
+            </a>
+            <a class="header-social cursor-target" href="mailto:jorgeleonelias@outlook.com" aria-label="Email Jorge León Elías" title="Email">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5h18v13H3v-13Zm1.4 1.8 7.6 5.45 7.6-5.45M4.4 17.1l5.25-4.55M19.6 17.1l-5.25-4.55" /></svg>
+            </a>
+        </span>
+    </nav>
+</header>
 
-									<li>
-										<h3 <span class="label"></span></h3>
-										<strong>Email: </strong><a href="mailto:jorgeleonelias@outlook.com">jorgeleonelias@outlook.com</a>
-									</li>
-									
-									
-								</ul>
-							</div>
-				</div>
-			</header>
+<main>
+  <section class="view active" id="home" data-view>
+    <div class="home-layout">
+        <div class="home-copy">
+            <h1>Jorge León Elías<br><em>technical & systems designer</em><br>Design ● Systems ● Implementation</h1>
+            <br /><p class="eyebrow">+5 years of AAA & Indie experience</p>
+            <p class="lede">I work at the intersection of game design and implementation, designing gameplay systems and turning them into playable, testable experiences in Unreal Engine.</p>
+            <button class="explore" data-route="work"><span>Explore selected work</span><b>↘</b></button>
+        </div>
+      <div class="home-aside">
+        <div class="aside-line"><span>01</span><span>Currently</span></div>
+        <p>Systems Game Designer<br><strong>CI Games</strong></p>
+        <div class="aside-line"><span>02</span><span>Previously</span></div>
+        <p>Principal Game Designer<br><strong>Herobeat Studios</strong></p>
+        <div class="aside-line"><span>03</span><span>Credit</span></div>
+        <p><em>Endling: Extinction Is Forever</em><br>BAFTA-winning game</p>
+      </div>
+    </div>
+    <div class="home-experience">
+      <div class="home-experience-heading">Experience <span>Selected roles</span></div>
+      <div class="home-experience-list">
+        <button class="home-experience-item cursor-target" data-route="work" type="button">
+          <span class="home-exp-number">01</span>
+          <span class="home-exp-main"><img class="home-exp-logo" src="assets/images/companies/ci-games.png" alt="CI Games logo"><strong>CI Games</strong><small>Technical Game Designer · CURRENT</small><em>Designing and implementing gameplay systems in Unreal Engine 5 across Lords of the Fallen II and Project Survive.</em></span>
+          <span class="home-exp-arrow">↗</span>
+        </button>
+        <button class="home-experience-item cursor-target" data-route="work" type="button">
+          <span class="home-exp-number">02</span>
+          <span class="home-exp-main"><img class="home-exp-logo" src="assets/images/companies/herobeat.png" alt="Herobeat Studios logo"><strong>Herobeat Studios</strong><small>Principal / Technical Game Designer</small><em>Led early design on Rewilders: The Lost Spring and contributed technical and gameplay systems to Endling: Extinction Is Forever.</em></span>
+          <span class="home-exp-arrow">↗</span>
+        </button>
+      </div>
+    </div>
+    <div class="home-bottom"><span>Madrid · Spain · © JORGE LEÓN ELÍAS</span><span>Scroll / Explore</span></div>
+  </section>
 
-		<!-- Main -->
-			<div id="main">
+  <section class="view" id="work" data-view>
+    <div class="view-intro"><p class="eyebrow">Selected work</p><h2>Projects where<br><em>design meets implementation.</em></h2><p>A selection of projects spanning systems design, technical design and hands-on implementation. Select a project to explore the case study.</p></div>
+    <div class="work-preview"><div class="preview-label">SELECTED / <span>01</span></div></div>
+    <div class="work-list">
+      <button class="work-item" data-project="lotf2">
+        <span class="work-number">01</span><span class="work-title">Lords of the Fallen II</span><span class="work-meta">CI Games · Technical Game Design</span><span class="arrow">↗</span>
+      </button>
+      <button class="work-item" data-project="survive">
+        <span class="work-number">02</span><span class="work-title">Project Survive</span><span class="work-meta">CI Games · Systems Game Design</span><span class="arrow">↗</span>
+      </button>
+      <button class="work-item" data-project="rewilders">
+        <span class="work-number">03</span><span class="work-title">Rewilders</span><span class="work-meta">Herobeat Studios · Principal Game Design</span><span class="arrow">↗</span>
+      </button>
+      <button class="work-item" data-project="endling">
+        <span class="work-number">04</span><span class="work-title">Endling</span><span class="work-meta">Herobeat Studios · Technical Game Design</span><span class="arrow">↗</span>
+      </button>
+      <button class="work-item" data-project="experiments">
+        <span class="work-number">05</span><span class="work-title">Experiments</span><span class="work-meta">Prototypes · Systems · Unreal Engine</span><span class="arrow">↗</span>
+      </button>
+    </div>
+</div>
+  </section>
 
-				<!-- One -->
-				<section id="one">
-					<header class="major">
-						<!--<h2>Technical Game Designer</h2>-->
-						<p>
-							4 years in AA and indie space in various design roles, specialized in scripting using Unreal Engine
-							blueprints.
-						</p>
-						</p>
-						🦊 Endling: Extinction is Forever - BAFTA Winner (Herobeat Studios)
-						</p>
-						<p>
-							🪓 Project Survive (CI Games - Underdog Studio: Unannounced Project)
-						</p>
-						
-							<< SKILLS >> <br />
-						
-						• Game Design (documentation, balancing, pacing, system & mechanics design). <br />
-						• Scripting (gameplay ability system, prototyping, implementation, events, cinematics/sequencer, FPP and TPP combat implementation). <br />
-						• AI Design (finite state machines, behaviour trees, environment query system). <br />
-						• Narrative design (environmental story telling, game events, quest systems). <br />
-					</header>
-					<!-- <p>My name is Jorge, I'm a technical game designer from Spain that loves the process of designing and coding videogames. Since very young, interactive media has been something that interests me, from the architecture behind them to the amount of joy that they can bring to the end-user. Exploring and learning all the different aspects of game development has been my main task in the last years, working in different projects with varied team sizes, making my own personal projects and developing prototypes to make my ideas become true. Some of these projects are shown below.</p> -->
-					<ul class="actions">
-						<!--
-		<li><a href="#" class="button">Learn More</a></li>
-		-->
+  <section class="view project-view" id="project" data-view>
+    <button class="back" data-route="work">← Back to work</button>
+    <div class="project-hero"><div><p class="eyebrow" id="project-kicker"></p><h2 id="project-title"></h2><p class="project-role" id="project-role"></p></div><div class="project-year" id="project-year"></div></div>
+    <div class="project-image"><img id="project-image" src="" alt=""><span id="project-image-caption"></span></div>
+    <div class="project-grid"><div class="project-statement" id="project-statement"></div><div class="project-body" id="project-body"></div></div>
+    <div class="project-media" id="project-media"></div>
+    <div class="project-gallery" id="project-gallery"></div>
+  </section>
 
-					</ul>
-					<!--
-	<img style='height: 100%; width: 100%; object-fit: contain' />
-	<img src="images/fulls/CV_PAGE_JORGELEON.jpg" alt="Jorge Leon Elias CV">
-	-->
-					<!-- <h3 style="text-align:center;"><u>Resume</u></h3> -->
-					<object data="images/fulls/CV_JorgeLeonElias_2023.pdf" type="application/pdf" width="100%" height="600px">
-						<p>
-							It appears you don't have a PDF plugin for this browser.
-							No biggie... you can <a href="images/fulls/CV_JorgeLeonElias_2023.pdf">
-								click here to
-								download the PDF file.
-							</a>
-						</p>
-					</object>
+  <section class="view" id="about" data-view>
+    <div class="about-layout">
+      <div class="about-photo"><img src="assets/images/pic03.jpg" alt="Jorge León Elías"><span>JORGE / MADRID</span></div>
+      <div class="about-copy"><p class="eyebrow">About</p><h2>A designer who<br><em>likes to build.</em></h2><p class="large">I enjoy the space between a design document and a playable game.</p><p>I'm a Technical &amp; Systems Game Designer based in Madrid. My work sits between creative design and implementation: defining how systems should work, prototyping them quickly, and getting them into a playable state so they can be tested and iterated.</p><p>My primary tool is Unreal Engine, where I work across gameplay systems, Blueprint implementation, AI, combat, progression, cameras, prototyping and technical design.</p><div class="career"><div><span>2023 — NOW</span><strong>Technical / Systems Game Designer</strong><small>CI Games</small></div><div><span>2022 — 2023</span><strong>Principal Game Designer</strong><small>Herobeat Studios</small></div><div><span>2021 — 2022</span><strong>Technical Game Designer</strong><small>Endling: Extinction Is Forever · Herobeat Studios</small></div></div><div class="about-details"><div><span>EDUCATION</span><strong>Game &amp; Interactive Media Design</strong><small>U-tad · 2016 — 2020</small></div><div><span>LANGUAGES</span><strong>Spanish · English</strong><small>Bilingual / native proficiency</small></div></div></div>
+    </div>
+  </section>
 
-					
-					<!-- <img style='height: 130%; width: 130%; object-fit: contain' src="images/fulls/CV_PAGE_JORGELEON.jpg" alt="Jorge Leon Elias CV" '  />-->
-				</section>
+  <section class="view contact-view" id="contact" data-view>
+    <div class="contact-inner"><p class="eyebrow">Contact</p><h2>Let's build something<br><em>worth playing.</em></h2><p>For opportunities, collaborations, or just to talk game design.</p><div class="contact-links"><a href="mailto:jorgeleonelias@outlook.com">Email <span>↗</span></a><a href="https://linkedin.com/in/jorgeleonelias" target="_blank" rel="noopener">LinkedIn <span>↗</span></a><a href="assets/CV_JorgeLeonElias_2023.pdf" target="_blank">Curriculum Vitae <span>↗</span></a></div></div>
+  </section>
+</main>
 
-
-				<section id="one_ii">
-					<header class="major">
-						<h2>Projects</h2>
-					</header>
-
-					<h3 style="text-align:center;"><u>Project Survive</u></h3>
-					<h3 style="text-align:center;">
-						<img style='height: 100%; width: 100%; object-fit: contain' src="images/public.jpg" alt="Survive" />
-
-					</h3>
-					<em><strong>Role:</strong> Systems Game Designer (09/2023 - Present)</em><br />
-					<em><strong>Engine:</strong> Unreal Engine 5</em><br />
-					<em><strong>Developer:</strong> CI Games - Underdog Studio</em><br />
-					<em><strong>Platforms:</strong> PC / Consoles</em><br />
-					<em>
-					<strong>Links:</strong> <a href="https://cigames.com/en/" target="_blank">CI Games</a></h3></h3> / <a href="https://www.underdogstudio.net/" target="_blank">Underdog Studio</a></h3></h3><br />
-																	  	
-					<em><strong>Tasks:</strong></em><br />
-					<ul>
-						<li>Game Mechanics and System design, prototyping and implementation.</li>
-						<li>Project documentation.</li>
-						<li>Combat/Weapon implementation.</li>
-						<li>Quest system implementation.</li>
-					</ul>
-					</em>
-
-					<h3 style="text-align:center;"><u>Unannounced Project</u></h3>
-					<h3 style="text-align:center;">
-						<img style='height: 100%; width: 100%; object-fit: contain' src="images/169833110974.jpeg" alt="gameUnannounced" />
-
-					</h3>
-					<em><strong>Role:</strong> Principal Game Designer (07/2022 - 09/2023)</em><br />
-					<em><strong>Engine:</strong> Unreal Engine 5</em><br />
-					<em><strong>Developer:</strong> Herobeat Studios</em><br />
-					<em><strong>Platforms:</strong> PC / Consoles</em><br />
-					<em>
-						<strong>Links:</strong> <a href="https://herobeatstudios.com/coming-soon/" target="_blank">Herobeat Studios</a></h3></h3><br />
-
-						<em><strong>Tasks:</strong></em><br />
-						<ul>
-							<li>Game concept creation and documentation.</li>
-							<li>Combat design.</li>
-							<li>Level design, emphasizing on Combat spaces.</li>
-							<li>Mentoring.</li>
-						</ul>
-					</em>
-
-
-					<h3 style="text-align:center;"><u>Endling - Extinction Is Forever</u></h3>
-					<h3 style="text-align:center;">
-						<!--<img style='height: 70%; width: 70%; object-fit: contain' src="images/games/Endling.jpg" alt="Endling" />-->
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/TFWJMQ50SLs" class="image fit thumb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-					</h3>
-					<em><strong>Role:</strong> Technical Game Designer (08/2021 - 07/2022)</em><br />
-					<em><strong>Engine:</strong> Unreal Engine 4</em><br />
-					<em><strong>Release:</strong> 19/07/2022</em><br />
-					<em><strong>Developer:</strong> Herobeat Studios</em><br />
-					<em><strong>Publisher:</strong> Handy Games</em><br />
-					<em><strong>Platforms:</strong> PC / Consoles / Mobile</em><br />
-					<em>
-						<strong>Links:</strong> <a href="https://store.steampowered.com/app/898890/Endling__Extinction_is_Forever/" target="_blank">Steam</a>
-						/  <a href="https://store.playstation.com/en-en/product/EP4539-PPSA08509_00-9431509967463596" target="_blank">PlayStation</a></h3>  /  <a href="https://www.xbox.com/en-US/games/store/endling-extinction-is-forever/9p42dsxnccdg" target="_blank">Xbox</a></h3>  /  <a href="https://www.nintendo.com/store/products/endling-extinction-is-forever-switch/" target="_blank">Nintendo Switch</a></h3>  /  <a href="https://store.epicgames.com/es-ES/p/endling-extinction-is-forever" target="_blank">Epic Games</a></h3>  /  <a href="https://www.gog.com/en/game/endling_extinction_is_forever" target="_blank">GOG</a></h3>  /  <a href="https://www.microsoft.com/en-sa/p/endling-extinction-is-forever/9p42dsxnccdg#activetab=pivot:overviewtab" target="_blank">Microsoft Store</a></h3>
-						<br />
-						<em><strong>Tasks:</strong></em><br />
-						<ul>
-							<li>Game Mechanics and System design, prototyping and implementation.</li>
-							<li>Balancing and pacing tuning.</li>
-							<li>Implementation of in-game events (Environmental Storytelling).</li>
-							<li>Cinematic scenes creation & tweaks.</li>
-							<li>Project documentation.</li>
-							<li>Pre / Post launch bug fixing.</li>
-						</ul>
-					</em>
-
-					<h3 style="text-align:center;"><u>Pencilmation Arkanoid</u></h3>
-					<h3 style="text-align:center;">
-						<!--<img style='height: 70%; width: 70%; object-fit: contain' src="images/games/Endling.jpg" alt="Endling" />-->
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/y0bOwFxT3wM" class="image fit thumb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-					</h3>
-					<em><strong>Role:</strong> Game Programmer (06/2021 - 08/2021)</em><br />
-					<em><strong>Engine:</strong> Unity</em><br />
-					<em><strong>Release:</strong> 23/12/2021</em><br />
-					<em><strong>Developer:</strong> 5th Element Gaming</em><br />
-					<em><strong>Platforms:</strong> Android  /  iOS</em><br />
-					<em>
-						<strong>Links:</strong> <a href="https://play.google.com/store/apps/details?id=com.FifthElementGames.PencilmationArkanoid2&hl=en&gl=US&pli=1" target="_blank">Android</a>
-						/  <a href="https://apps.apple.com/.../pencilmation.../id1593397777" target="_blank">iOS</a></h3></h3>
-					</em>
-					<br />
-					<em><strong>Tasks:</strong></em><br />
-					<ul>
-						<li>Mechanics implementation.</li>
-						<li>Tools creation.</li>
-						<li>Systems implementation (in-game store, progression unlockables).</li>
-						<li>Code optimization.</li>
-						<li>Google Play services integration.</li>
-					</ul>
-					<ul class="actions">
-						<!--
-		<li><a href="#" class="button">Learn More</a></li>
-		-->
-					</ul>
-					<!--
-	<img style='height: 100%; width: 100%; object-fit: contain' />
-	<img src="images/fulls/CV_PAGE_JORGELEON.jpg" alt="Jorge Leon Elias CV">
-	-->
-
-
-				</section>
-
-				<!-- Two -->
-				<section id="two">
-					<h2>Prototypes</h2>
-					<p>
-						Prototypes developed while I was studying at university, coded with Blueprints in Unreal Engine 4. Game design and programming in all projects as main tasks.
-					</p>
-					<div class="row">
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/games/game_bandit.jpg" class="image fit thumb"><img src="images/games/game_bandit.jpg" alt="Bandit Trail" /></a>
-							<h3>Bandit Trail - UE 4 - <a href="https://www.youtube.com/watch?v=gjWX0_mF_vU" target="_blank">Youtube Link</a></h3>
-							<p>Infinite runner shooter in third person. Procedural world generation, progression difficulty system, character and weapon unlocks. In-game shop, characters with unique abilities (quick reload, Gatling gun, golden bullets), different game modes, power ups and power downs.</p>
-						</article>
-						<!--<article class="col-6 col-12-xsmall work-item">
-							<a href="images/games/game_runngun.jpg" class="image fit thumb"><img src="images/games/game_runngun.jpg" alt="Run N Gun" /></a>
-							<h3>Run N Gun - Unity - <a href="https://www.youtube.com/watch?v=OBj2R9YwqCI" target="_blank">Youtube Link</a></h3>
-							<p>FPS with parkour elements (wall run, mantle, slide). Unlockable weapons through max score. Procedural recoil (visual and mechanical) and weapon sway movement. Roaming AI with predefined movement sectors. Dynamic AI spawns depending on enemy type.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/games/game_hacknslash.jpg" class="image fit thumb"><img src="images/games/game_hacknslash.jpg" alt="3rd Person Hack & Slash Shooter" /></a>
-							<h3>3rd Person Hack & Slash Shooter - UE 4 - <a href="https://www.youtube.com/watch?v=9-ktguSmefo" target="_blank">Youtube Link</a></h3>
-							<p>Action/Adventure in Third Person Perspective, agile combat, weapons with unique abilities & per-weapon animations, targeting system and pick-up objects. Third person shooter mechanics combined with close quarters melee combat.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/games/game_aitest.jpg" class="image fit thumb"><img src="images/games/game_aitest.jpg" alt="AI Test - Twin Stick Shooter" /></a>
-							<h3>AI Test for Twin Stick Shooter - UE 4 - <a href="https://www.youtube.com/watch?v=X2HeaoSf2Ks" target="_blank">Youtube Link</a></h3>
-							<p>Enemies try to stay within a set distance threshold from the player. When inside this threshold, the armed enemies start shooting at the player while also strafing right and left around the player character. Robot enemies move towards the threshold, at this point they select different random locations to plant mines that explode after a set number of seconds. After planting all mines, they rush towards the player to auto destruct. Enemy waves that increase in numbers progressively.
-Enemies have a random chance of dropping health or weapons. Weapons have a set number of seconds of use, before they are swapped to the starting rifle.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/games/game_downthedepths.jpg" class="image fit thumb"><img src="images/games/game_downthedepths.jpg" alt="Down The Depths" /></a>
-							<h3>Down The Depths - Unity - <a href="https://www.youtube.com/watch?v=KbTycWYGJFI" target="_blank">Youtube Link</a></h3>
-							<p>Action/Adventure in First Person Perspective, melee combat, character abilities (frost ray magic/area & healing effect). Bosses with unique abilities, AOE damage attacks with randomized locations, timed special attacks when the player gets too close or too far away.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="images/games/game_hide&seek.jpg" class="image fit thumb"><img src="images/games/game_hide&seek.jpg" alt="Hide & Seek" /></a>
-							<h3>Hide & Seek - UE 4 - <a href="https://www.youtube.com/watch?v=7vnxkVPV2Qw" target="_blank">Youtube Link</a></h3>
-							<p>Hide & Seek concept. Third Person Shooter, the objective is to find several humans hidden inside a housing area which run away and hide when in visual or acoustic contact with the player. Artificial Intelligence developed with Behaviour Trees and Environment Query System (EQS). Heat wave vision to detect enemies through walls. Limited heat wave vision use, regeneration by eliminating enemies.</p>
-						</article>
-					</div>
-					<!--
-					<ul class="actions">
-						<li><a href="#" class="button">Full Portfolio</a></li>
-					</ul>
-					-->
-				</section>
-
-				<!-- Three -->
-					<section id="three">
-						<h2>Get In Touch</h2>
-						<p>If you want to contact me, I am available through my e-mail. I will get in touch as soon as possible!</p>
-						<div class="row">
-							
-							<div class="col-4 col-12-small">
-								<ul class="labeled-icons">
-									<li>
-										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-										Madrid<br />
-										<strong>Spain</strong>
-									</li>
-									
-									<li>
-										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-										<a href="mailto:jorgeleonelias@outlook.com">jorgeleonelias@outlook.com</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
-				<!-- Four -->
-				<!--
-					<section id="four">
-						<h2>Elements</h2>
-
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
-
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="col-6 col-12-xsmall">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Sagittis adipiscing lorem eleifend.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-										<li>Dolor pulvinar etiam magna etiam.</li>
-										<li>Etiam vel felis at lorem sed viverra.</li>
-										<li>Felis enim feugiat dolore viverra.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button primary small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button primary">Primary</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button large">Large</a></li>
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button primary fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button primary disabled">Primary</span></li>
-								<li><span class="button disabled">Default</span></li>
-							</ul>
-						</section>
-
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row gtr-uniform gtr-50">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="col-12">
-										<select name="demo-category" id="demo-category">
-											<option value="">- Category -</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
-											<option value="1">Administration</option>
-											<option value="1">Human Resources</option>
-										</select>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal Priority</label>
-									</div>
-									<div class="col-4 col-12-small">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High Priority</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy of this message</label>
-									</div>
-									<div class="col-6 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">I am a human and not a robot</label>
-									</div>
-									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
-									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
-									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
-
-					</section>
-				-->
-
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="mailto:jorgeleonelias@outlook.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-
-						<li><a href="https://www.linkedin.com/in/jorgeleonelias/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						
-						<li><a href="https://github.com/Jorgects" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<!--
-						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-						-->
-						
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Jorge Leon Elias</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+<div class="project-cursor" aria-hidden="true"><span class="cursor-core"></span><span class="cursor-ring cursor-ring-a"></span><span class="cursor-ring cursor-ring-b"></span></div>
+<div class="transition"></div>
+<script src="assets/app.js"></script>
+</body>
 </html>
